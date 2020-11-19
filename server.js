@@ -6,7 +6,6 @@ const formatMessage = require('./utils/messages');
 const {
   userJoin,
   getCurrentUser,
-  existUser,
   userLeave,
   getRoomUsers
 } = require('./utils/users');

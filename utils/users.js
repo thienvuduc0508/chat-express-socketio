@@ -8,9 +8,7 @@ function userJoin(id, username, room) {
 
   return user;
 }
-function existUser({username, room}){
-  return users.some(user => user.name = username);
-}
+
 
 // Get current user
 function getCurrentUser(id) {
@@ -33,7 +31,6 @@ function getRoomUsers(room) {
 
 module.exports = {
   userJoin,
-  existUser,
   getCurrentUser,
   userLeave,
   getRoomUsers
